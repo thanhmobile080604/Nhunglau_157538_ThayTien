@@ -46,6 +46,7 @@
 
 - Sơ đồ quan hệ thực thể để thể hiện mối quan hệ giữa các trường thông tin.
 - Giải thích các table, và một vài table.field quan trọng
+- Cấu trúc các file cấu hình như .env, .conf, .xml
 
 ### CÁC PAYLOAD
 
