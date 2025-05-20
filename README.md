@@ -2,7 +2,7 @@
   Mô tả nội dung cần báo cáo của môn đồ án
   > Sinh viên nên Fork
 
-## GIƠÍ THIỆU
+## GIỚI THIỆU
 
  - Mô tả lại tính năng, đề bài được yêu cầu.
  - Ảnh chụp minh họa:\
@@ -31,7 +31,28 @@
 
 > Tham khảo cách trình bày như ở đây [Code Project](https://www.codeproject.com/Articles/5385907/Managing-Cplusplus-Projects-with-Conan-and-CMake)
 
-- Trình bày về các thuật toán cơ bản
-- Cấu trúc dữ liệu
+### TÍCH HỢP HỆ THỐNG
+
+- Mô tả các thành phần phần cứng và vai trò của chúng: máy chủ, máy trạm, thiết bị IoT, MQTT Server, module cảm biến IoT...
+- Mô tả các thành phần phần mềm và vai trò của chúng, vị trí nằm trên phần cứng nào: Front-end, Back-end, Worker, Middleware...
+
+### CÁC THUẬT TOÁN CƠ BẢN
+
+- Ví dụ: tạo token bằng JWT.
+- Ví dụ: băm mật khẩu bằng MD5 theo công thức: MD5(key+"myapp"+key).
+- Ví dụ: tạo id cho đối tượng bằng GUID, hoặc bằng hàm random.
+
+### THIẾT KẾ CƠ SỞ DỮ LIỆU
+
+- Sơ đồ quan hệ thực thể để thể hiện mối quan hệ giữa các trường thông tin.
+- Giải thích các table, và một vài table.field quan trọng
+
+### CÁC PAYLOAD
+
 - Cấu trúc các gói json
+
+### ĐẶC TẢ HÀM
+
 - Một số hàm quan trọng
+- Mô tả ý nghĩa của hàm, tham số vào, ra
+
