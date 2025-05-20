@@ -50,9 +50,21 @@
 ### CÁC PAYLOAD
 
 - Cấu trúc các gói json
+- Nội dung trao đổi giữa các module, cảm biến
 
 ### ĐẶC TẢ HÀM
 
 - Một số hàm quan trọng
 - Mô tả ý nghĩa của hàm, tham số vào, ra
+- Hoặc có thể tham chiếu, chụp ảnh từ các công cụ như swagger, pydoc, javadoc, doxygen
+
+  ```C
+     /**
+      *  Hàm tính ...
+      *  @param  x  Tham số
+      *  @param  y  Tham số
+      */
+     void abc(int x, int y = 2);
+  ```
+  
 
