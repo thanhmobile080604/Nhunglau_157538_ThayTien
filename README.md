@@ -67,6 +67,17 @@
       */
      void abc(int x, int y = 2);
   ```
+
+
+### PHÁT SINH
+
+_Các sự cố, vẫn đề, lỗi mà không xử lý được, hoặc xử lý mất quá 4h thì nên ghi vào đây, hoặc ghi vào [issue của GitHub](https://github.com/neittien0110/ProjectSample/issues). Sẽ được tính điểm. Ví dụ__
+
+- __Lỗi: blablablabla__
+  - Chi tiêt: .....
+  - Nguyên nhân: ...
+  - Giải pháp: chưa có
+
   
 ## KẾT QUẢ
 Các ảnh chụp với caption giải thích.
