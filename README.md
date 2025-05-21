@@ -68,4 +68,7 @@
      void abc(int x, int y = 2);
   ```
   
+## KẾT QUẢ
+Các ảnh chụp với caption giải thích.
+Hoặc video sản phẩm
 
