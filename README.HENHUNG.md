@@ -1,12 +1,18 @@
 # PROJECT SAMPLE
-  Mô tả nội dung cần báo cáo của môn đồ án
-  > Sinh viên nên Fork từ dự án này
+
+Mô tả nội dung cần báo cáo của môn đồ án
+> Sinh viên nên Fork từ dự án này
 
 ## GIỚI THIỆU
 
- - Mô tả lại tính năng, đề bài được yêu cầu.
- - Ảnh chụp minh họa:\
-   ![Ảnh minh họa](https://soict.hust.edu.vn/wp-content/uploads/logo-soict-hust-1-1024x416.png)
+__Đề bài__: _Copy lại nội dung đề bài được yêu cầu._
+
+__Sản phẩm:__
+1. Tính năng
+2. Tính năng
+3. Tính năng
+- Ảnh chụp minh họa:\
+  ![Ảnh minh họa](https://soict.hust.edu.vn/wp-content/uploads/logo-soict-hust-1-1024x416.png)
 
 ## TÁC GIẢ
 
