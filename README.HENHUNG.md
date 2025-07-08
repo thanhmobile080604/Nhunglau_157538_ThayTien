@@ -1,53 +1,56 @@
-# PROJECT SAMPLE
+# PROJECT NHÚNG IT4
 
-Mô tả nội dung cần báo cáo của môn đồ án
-> Sinh viên nên Fork từ dự án này
+Xây dựng game Tetris trên kit STM32F429I-DISCOVERY sử dụng TouchGFX, FreeRTOS và các ngoại vi: joystick, đèn led.
 
 ## GIỚI THIỆU
 
-__Đề bài__: _Copy lại nội dung đề bài được yêu cầu._
+__Đề bài__: Xây dưng Game “Tetris”
 
 __Sản phẩm:__
-1. Tính năng
-2. Tính năng
-3. Tính năng
+1. Xây dựng tựa game Tetris có đầy đủ logic: xoay khối, di chuyển, rơi, xóa hàng, tính điểm, thua game.
+2. Hiển thị giao diện đồ họa TouchGFX.
+3. Điều khiển game bằng joystick và thêm LED để tăng tính trực quan.
 - Ảnh chụp minh họa:\
-  ![Ảnh minh họa](https://soict.hust.edu.vn/wp-content/uploads/logo-soict-hust-1-1024x416.png)
+  ![image](https://github.com/user-attachments/assets/e09c6cbd-a362-4dee-bf04-800bf2b9ea45)
 
 ## TÁC GIẢ
 
-- Tên nhóm:......
+- Tên nhóm: Nhúng lẩu
 - Thành viên trong nhóm
   |STT|Họ tên|MSSV|Công việc|
   |--:|--|--|--|
-  |1|Nguyễn Hoàng Hải|20002987|hiện thị oled, hiệu ứng, và xử lý ngắt|
+  |1|Nguyễn Ngọc Thuận|20225413|hiện thị oled, và xử lý ngắt|
+  |2|Vũ Tuấn Thành|20225406|Nối mạch, viết báo cáo|
+  |3|Đỗ Thế Quân|20225382|Xử lí logic sự kiện game|
 
 ## MÔI TRƯỜNG HOẠT ĐỘNG
 
-- Liệt kê module CPU/dev kit. Ví dụ ESP32 Dev Module, hoặc STM32F429-DISC.
-- Liệt kê các kit, module được sử dụng: ví dụ: stm32 cảm biến...
+- Module CPU/dev kit sử dụng: STM32F429I-DISCOVERY (STM32F429ZIT6, ARM Cortex-M4), STM32CubeIDE, TouchGFX
+- Kit ngoại được sử dụng: 2.4" TFT LCD with touch
+                          JoyStick, Đèn LED
 
 ## SO ĐỒ SCHEMATIC
-
-_Cho biết cách nối dây, kết nối giữa các linh kiện_ 
-Ví dụ có thể liệt kê dạng bảng
 |STM32F429|Module ngoại vi|
 |--|--|
-|PA0|Nút bấm điều khiển trên board|
-|PG13|Led báo trên board|
-|PE2|MQ3 SCK|
-|PE3|MQ3 SDA|
-
-hoặc dạng ảnh:\
-![image](https://github.com/user-attachments/assets/f15f7379-09bf-472a-b0d9-4de6d32a6ec0)
-
-hoặc bất cứ dạng nào thể hiện được cách đấu nối giữa các linh kiện
-
+|PC3|JoyStick - Ngõ ra trục X(VRx)|
+|PA5|JoyStick - Ngõ ra trục Y(VRy)|
+|3V3 (Từ kit)|JoyStick - Chân cấp nguồn(VCC)|
+|GND (Từ kit)|JoyStick - Chân nối đất(GND)|
+|PG2|Đèn LED|
+|LCD Pins|Màn hình LCD-TFT|
 
 ### TÍCH HỢP HỆ THỐNG
-
-- Mô tả các thành phần phần cứng và vai trò của chúng: máy chủ, máy trạm, thiết bị IoT, MQTT Server, module cảm biến IoT...
+- Phần cứng:
+  |Linh kiện|Vai trò|
+  |--|--|
+  |JoyStick - Ngõ ra trục X(VRx)|Cho phép người chơi điều khiển di chuyển khối Tetris sang trái hoặc phải bằng cách nghiêng joystick theo trục ngang. Tín hiệu được đọc qua ADC1_IN13.|
+  |JoyStick - Ngõ ra trục Y(VRy)|Dùng để tăng tốc rơi khối (kéo xuống nhanh) hoặc xoay khối khi đẩy joystick lên/xuống. Tín hiệu đọc từ ADC1_IN5.|
+  |JoyStick - Chân cấp nguồn(VCC)|Cung cấp điện áp 3.3V để module Joystick hoạt động ổn định trong suốt quá trình chơi game.|
+  |JoyStick - Chân nối đất(GND)|Nối với GND chung của hệ thống để đảm bảo tín hiệu joystick chính xác, không nhiễu loạn.|
+  |Đèn LED|Nhận tín hiệu điều khiển để phát sáng khi người chơi ăn điểm.|
+  |Màn hình LCD-TFT|Hiển thị giao diện trò chơi Tetris gồm khối gạch, điểm số, tốc độ rơi, và trạng thái chơi. Là trung tâm tương tác trực quan chính với người dùng.|
 - Mô tả các thành phần phần mềm và vai trò của chúng, vị trí nằm trên phần cứng nào: Front-end, Back-end, Worker, Middleware...
+  
 
 ### ĐẶC TẢ HÀM
 
