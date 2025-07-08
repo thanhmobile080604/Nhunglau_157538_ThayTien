@@ -78,14 +78,16 @@ __Sản phẩm:__
   ```C
      /**
       * Hàm kiểm tra vị trí va chạm của khối đang rơi
-      * @param1 row: hàng cần kiểm tra
-      * @param2 col: cột cần kiểm tra
+      * @param row: hàng cần kiểm tra
+      * @param col: cột cần kiểm tra
+      * @return true nếu có thể đặt, false nếu không thể đặt
       */
      bool Screen2View::canPlaceTetromino(int row, int col)
   ```
   ```C
      /**
       * Hàm xóa hàng khi có đầy đủ khối theo hướng nằm ngang
+      * @return số hàng đã xóa
       */
      int Screen2View::checkAndClearLines()
   ```
@@ -99,6 +101,7 @@ __Sản phẩm:__
   ```C
      /**
       * Hàm gia tăng tốc độ rơi của khối dựa trên level
+      * @return độ trễ (ms) giữa mỗi lần rơi khối.
       */
      uint32_t Screen2View::getFallDelay()
   ```
