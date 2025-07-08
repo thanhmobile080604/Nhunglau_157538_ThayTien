@@ -55,7 +55,7 @@ __Sản phẩm:__
   |JoyStick - Chân cấp nguồn(VCC)|Cung cấp điện áp 3.3V để module Joystick hoạt động ổn định trong suốt quá trình chơi game.|
   |JoyStick - Chân nối đất(GND)|Nối với GND chung của hệ thống để đảm bảo tín hiệu joystick chính xác, không nhiễu loạn.|
   |Đèn LED|Nhận tín hiệu điều khiển để phát sáng khi người chơi ăn điểm.|
-  |Màn hình LCD-TFT|Hiển thị giao diện trò chơi Tetris gồm khối gạch, điểm số, tốc độ rơi, và trạng thái chơi. Là trung tâm tương tác trực quan chính với người dùng.|
+  |Màn hình LCD-TFT|Hiển thị giao diện trò chơi Tetris gồm khối gạch, điểm số, tốc độ rơi, và trạng thái chơi.|
 - Phần mềm:
   |Thành phần|Vai trò|
   |--|--|
