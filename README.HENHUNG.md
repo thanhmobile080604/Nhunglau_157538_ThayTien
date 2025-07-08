@@ -37,15 +37,13 @@ __Sản phẩm:__
 
 ## 🧩 SƠ ĐỒ SCHEMATIC
 
-| STM32F429        | Module ngoại vi                              |
-|------------------|----------------------------------------------|
-| PC3              | JoyStick - Ngõ ra trục X (VRx)               |
-| PA5              | JoyStick - Ngõ ra trục Y (VRy)               |
-| 3V3 (Từ kit)     | JoyStick - Chân cấp nguồn (VCC)              |
-| GND (Từ kit)     | JoyStick - Chân nối đất (GND)                |
-| PG2              | Đèn LED                                      |
-| LCD Pins         | Màn hình LCD-TFT                             |
-
+&nbsp;&nbsp;&nbsp;&nbsp;| Thành phần        | Chi tiết                                                                 |
+&nbsp;&nbsp;&nbsp;&nbsp;|-------------------|-------------------------------------------------------------------------|
+&nbsp;&nbsp;&nbsp;&nbsp;| **Kit chính**     | STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)                    |
+&nbsp;&nbsp;&nbsp;&nbsp;| **IDE**           | STM32CubeIDE                                                            |
+&nbsp;&nbsp;&nbsp;&nbsp;| **Giao diện**     | TouchGFX Designer                                                       |
+&nbsp;&nbsp;&nbsp;&nbsp;| **RTOS**          | FreeRTOS (xử lý thời gian thực)                                         |
+&nbsp;&nbsp;&nbsp;&nbsp;| **Ngoại vi**      | Joystick 2 trục, đèn LED GPIO, màn hình LCD-TFT 2.4”                    |
 
 ### 🧠TÍCH HỢP HỆ THỐNG
 
