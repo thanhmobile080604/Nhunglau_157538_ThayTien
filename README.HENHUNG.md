@@ -37,14 +37,18 @@ __Sản phẩm:__
 
 ## 🧩SƠ ĐỒ SCHEMATIC
 
-  > |STM32F429|Module ngoại vi|
-  > |--|--|
-  > |PC3|JoyStick - Ngõ ra trục X(VRx)|
+<blockquote>
+  
+  |STM32F429|Module ngoại vi|
+  |--|--|
+  |PC3|JoyStick - Ngõ ra trục X(VRx)|
   |PA5|JoyStick - Ngõ ra trục Y(VRy)|
   |3V3 (Từ kit)|JoyStick - Chân cấp nguồn(VCC)|
   |GND (Từ kit)|JoyStick - Chân nối đất(GND)|
   |PG2|Đèn LED|
   |LCD Pins|Màn hình LCD-TFT|
+
+</blockquote>
 
 ### 🧠TÍCH HỢP HỆ THỐNG
 
