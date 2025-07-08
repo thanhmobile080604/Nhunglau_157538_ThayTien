@@ -19,7 +19,7 @@ __Sản phẩm:__
 - Thành viên trong nhóm
   |STT|Họ tên|MSSV|Công việc|
   |--:|--|--|--|
-  |1|Nguyễn Ngọc Thuận|20225413|hiện thị oled, và xử lý ngắt|
+  |1|Nguyễn Ngọc Thuận|20225413|Hiện thị oled, và xử lý ngắt|
   |2|Vũ Tuấn Thành|20225406|Nối mạch, viết báo cáo|
   |3|Đỗ Thế Quân|20225382|Xử lí logic sự kiện game|
 
