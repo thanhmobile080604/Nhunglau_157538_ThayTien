@@ -65,7 +65,7 @@ __Sản phẩm:__
   |ADC Worker|Đọc giá trị analog từ joystick (ADC1, ADC2).|
   |FreeRTOS|Quản lý thời gian rơi khối định kỳ (handleTickEvent())|
 
-### ĐẶC TẢ HÀM
+### 🧪ĐẶC TẢ HÀM
 
 - Ý nghĩa một số hàm quan trọng:
 
