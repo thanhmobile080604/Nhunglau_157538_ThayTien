@@ -4,7 +4,7 @@ Xây dựng game Tetris trên kit STM32F429I-DISCOVERY sử dụng TouchGFX, Fre
 
 ## 📌GIỚI THIỆU
 
-__Đề bài__: Xây dưng Game “Tetris”
+__Đề bài__: Xây dựng Game “Tetris”
 
 __Sản phẩm:__
 1. Xây dựng tựa game Tetris có đầy đủ logic: xoay khối, di chuyển, rơi, xóa hàng, tính điểm, thua game.
