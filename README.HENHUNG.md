@@ -26,9 +26,13 @@ __Sản phẩm:__
 ## ⚙️MÔI TRƯỜNG HOẠT ĐỘNG
 
 •	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
+
 •	IDE: STM32CubeIDE
+
 •	Giao diện: TouchGFX Designer
+
 •	RTOS: FreeRTOS (xử lý thời gian thực)
+
 •	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
 
 ## 🧩SƠ ĐỒ SCHEMATIC
@@ -54,6 +58,7 @@ __Sản phẩm:__
   |Màn hình LCD-TFT|Hiển thị giao diện trò chơi Tetris gồm khối gạch, điểm số, tốc độ rơi, và trạng thái chơi. Là trung tâm tương tác trực quan chính với người dùng.|
 - Phần mềm:
   |Thành phần|Vai trò|
+  |--|--|
   |Front-end|Hiển thị giao diện TouchGFX, cập nhật khối, điểm số, khối kế tiếp.|
   |Back-end|Xử lý logic Tetris: di chuyển, xoay, rơi, xóa hàng, tính điểm.|
   |ADC Worker|Đọc giá trị analog từ joystick (ADC1, ADC2).|
@@ -61,7 +66,7 @@ __Sản phẩm:__
 
 ### ĐẶC TẢ HÀM
 
-- Giải thích một số hàm quan trọng: ý nghĩa của hàm, tham số vào, ra
+- Ý nghĩa một số hàm quan trọng:
 
   ```C
      /**
@@ -99,8 +104,11 @@ __Sản phẩm:__
   
 ### ✅KẾT QUẢ
 •	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
+
 •	🎮 Joystick điều khiển chính xác, responsive
+
 •	💡 LED nhấp nháy khi xóa hàng, tăng điểm
+
 •	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
 Video của nhóm: https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
