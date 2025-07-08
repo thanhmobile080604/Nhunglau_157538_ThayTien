@@ -112,7 +112,7 @@ __Sản phẩm:__
 
   &nbsp;&nbsp;&nbsp;&nbsp;•	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
-  &nbsp;&nbsp;&nbsp;&nbsp;👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+  &nbsp;&nbsp;&nbsp;&nbsp;👉 (Video demo sản phẩm của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
 
 ### ❤️ Lời nói cuối
 
