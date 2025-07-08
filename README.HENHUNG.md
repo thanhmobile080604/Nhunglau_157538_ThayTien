@@ -111,5 +111,11 @@ __Sản phẩm:__
 
 •	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
-Video của nhóm: https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+
+### ❤️ Lời nói cuối
+
+Dù thời gian có hạn, nhưng nhờ có sự chỉ dẫn tận tình của thầy và tinh thần teamwork cao, chúng em đã hoàn thiện được sản phẩm chỉnh chu và đúng yêu cầu.
+
+Nhóm em xin chân thành cảm ơn thầy đã tận tình hỗ trợ trong suốt thời gian dạy học qua.
 
