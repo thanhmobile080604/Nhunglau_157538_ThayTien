@@ -27,17 +27,17 @@ __Sản phẩm:__
 
   &nbsp;&nbsp;&nbsp;&nbsp;•	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
 
-  •	IDE: STM32CubeIDE
+  &nbsp;&nbsp;&nbsp;&nbsp;•	IDE: STM32CubeIDE
 
-  •	Giao diện: TouchGFX Designer
+  &nbsp;&nbsp;&nbsp;&nbsp;•	Giao diện: TouchGFX Designer
 
-  •	RTOS: FreeRTOS (xử lý thời gian thực)
+  &nbsp;&nbsp;&nbsp;&nbsp;•	RTOS: FreeRTOS (xử lý thời gian thực)
 
-  •	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
+  &nbsp;&nbsp;&nbsp;&nbsp;•	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
 
 ## 🧩SƠ ĐỒ SCHEMATIC
 
-  |STM32F429|Module ngoại vi|
+  &nbsp;&nbsp;&nbsp;&nbsp;|STM32F429|Module ngoại vi|
   |--|--|
   |PC3|JoyStick - Ngõ ra trục X(VRx)|
   |PA5|JoyStick - Ngõ ra trục Y(VRy)|
@@ -104,19 +104,19 @@ __Sản phẩm:__
   ```
   
 ### ✅KẾT QUẢ
-  •	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
+  &nbsp;&nbsp;&nbsp;&nbsp;•	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
 
-  •	🎮 Joystick điều khiển chính xác, responsive
+  &nbsp;&nbsp;&nbsp;&nbsp;•	🎮 Joystick điều khiển chính xác, responsive
 
-  •	💡 LED nhấp nháy khi xóa hàng, tăng điểm
+  &nbsp;&nbsp;&nbsp;&nbsp;•	💡 LED nhấp nháy khi xóa hàng, tăng điểm
 
-  •	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
+  &nbsp;&nbsp;&nbsp;&nbsp;•	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
-  👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+  &nbsp;&nbsp;&nbsp;&nbsp;👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
 
 ### ❤️ Lời nói cuối
 
-  Dù thời gian có hạn, nhưng nhờ có sự chỉ dẫn tận tình của thầy và tinh thần teamwork cao, chúng em đã hoàn thiện được sản phẩm chỉnh chu và đúng yêu cầu.
+  &nbsp;&nbsp;&nbsp;&nbsp;Dù thời gian có hạn, nhưng nhờ có sự chỉ dẫn tận tình của thầy và tinh thần teamwork cao, chúng em đã hoàn thiện được sản phẩm chỉnh chu và đúng yêu cầu.
 
-  Nhóm em xin chân thành cảm ơn thầy đã tận tình hỗ trợ trong suốt thời gian dạy học qua.
+  &nbsp;&nbsp;&nbsp;&nbsp;Nhóm em xin chân thành cảm ơn thầy đã tận tình hỗ trợ trong suốt thời gian dạy học qua.
 
