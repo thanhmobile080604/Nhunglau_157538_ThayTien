@@ -25,7 +25,7 @@ __Sản phẩm:__
 
 ## ⚙️MÔI TRƯỜNG HOẠT ĐỘNG
 
-    •	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
+  •	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
 
   •	IDE: STM32CubeIDE
 
@@ -36,6 +36,7 @@ __Sản phẩm:__
   •	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
 
 ## 🧩SƠ ĐỒ SCHEMATIC
+
   |STM32F429|Module ngoại vi|
   |--|--|
   |PC3|JoyStick - Ngõ ra trục X(VRx)|
