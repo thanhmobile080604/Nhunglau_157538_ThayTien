@@ -25,25 +25,25 @@ __Sản phẩm:__
 
 ## ⚙️MÔI TRƯỜNG HOẠT ĐỘNG
 
-•	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
+  •	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
 
-•	IDE: STM32CubeIDE
+  •	IDE: STM32CubeIDE
 
-•	Giao diện: TouchGFX Designer
+  •	Giao diện: TouchGFX Designer
 
-•	RTOS: FreeRTOS (xử lý thời gian thực)
+  •	RTOS: FreeRTOS (xử lý thời gian thực)
 
-•	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
+  •	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
 
 ## 🧩SƠ ĐỒ SCHEMATIC
-|STM32F429|Module ngoại vi|
-|--|--|
-|PC3|JoyStick - Ngõ ra trục X(VRx)|
-|PA5|JoyStick - Ngõ ra trục Y(VRy)|
-|3V3 (Từ kit)|JoyStick - Chân cấp nguồn(VCC)|
-|GND (Từ kit)|JoyStick - Chân nối đất(GND)|
-|PG2|Đèn LED|
-|LCD Pins|Màn hình LCD-TFT|
+  |STM32F429|Module ngoại vi|
+  |--|--|
+  |PC3|JoyStick - Ngõ ra trục X(VRx)|
+  |PA5|JoyStick - Ngõ ra trục Y(VRy)|
+  |3V3 (Từ kit)|JoyStick - Chân cấp nguồn(VCC)|
+  |GND (Từ kit)|JoyStick - Chân nối đất(GND)|
+  |PG2|Đèn LED|
+  |LCD Pins|Màn hình LCD-TFT|
 
 ### 🧠TÍCH HỢP HỆ THỐNG
 
@@ -103,19 +103,19 @@ __Sản phẩm:__
   ```
   
 ### ✅KẾT QUẢ
-•	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
+  •	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
 
-•	🎮 Joystick điều khiển chính xác, responsive
+  •	🎮 Joystick điều khiển chính xác, responsive
 
-•	💡 LED nhấp nháy khi xóa hàng, tăng điểm
+  •	💡 LED nhấp nháy khi xóa hàng, tăng điểm
 
-•	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
+  •	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
-👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+  👉 (Video của nhóm): https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
 
 ### ❤️ Lời nói cuối
 
-Dù thời gian có hạn, nhưng nhờ có sự chỉ dẫn tận tình của thầy và tinh thần teamwork cao, chúng em đã hoàn thiện được sản phẩm chỉnh chu và đúng yêu cầu.
+  Dù thời gian có hạn, nhưng nhờ có sự chỉ dẫn tận tình của thầy và tinh thần teamwork cao, chúng em đã hoàn thiện được sản phẩm chỉnh chu và đúng yêu cầu.
 
-Nhóm em xin chân thành cảm ơn thầy đã tận tình hỗ trợ trong suốt thời gian dạy học qua.
+  Nhóm em xin chân thành cảm ơn thầy đã tận tình hỗ trợ trong suốt thời gian dạy học qua.
 
