@@ -1,8 +1,8 @@
-# PROJECT NHÚNG IT4
+# 🎮PROJECT NHÚNG IT4210
 
 Xây dựng game Tetris trên kit STM32F429I-DISCOVERY sử dụng TouchGFX, FreeRTOS và các ngoại vi: joystick, đèn led.
 
-## GIỚI THIỆU
+## 📌GIỚI THIỆU
 
 __Đề bài__: Xây dưng Game “Tetris”
 
@@ -10,10 +10,10 @@ __Sản phẩm:__
 1. Xây dựng tựa game Tetris có đầy đủ logic: xoay khối, di chuyển, rơi, xóa hàng, tính điểm, thua game.
 2. Hiển thị giao diện đồ họa TouchGFX.
 3. Điều khiển game bằng joystick và thêm LED để tăng tính trực quan.
-- Ảnh chụp minh họa:\
+- 📷Ảnh chụp minh họa:\
   ![image](https://github.com/user-attachments/assets/e09c6cbd-a362-4dee-bf04-800bf2b9ea45)
 
-## TÁC GIẢ
+## 👥TÁC GIẢ
 
 - Tên nhóm: Nhúng lẩu
 - Thành viên trong nhóm
@@ -23,13 +23,15 @@ __Sản phẩm:__
   |2|Vũ Tuấn Thành|20225406|Nối mạch, viết báo cáo|
   |3|Đỗ Thế Quân|20225382|Xử lí logic sự kiện game|
 
-## MÔI TRƯỜNG HOẠT ĐỘNG
+## ⚙️MÔI TRƯỜNG HOẠT ĐỘNG
 
-- Module CPU/dev kit sử dụng: STM32F429I-DISCOVERY (STM32F429ZIT6, ARM Cortex-M4), STM32CubeIDE, TouchGFX
-- Kit ngoại được sử dụng: 2.4" TFT LCD with touch
-                          JoyStick, Đèn LED
+•	Kit chính: STM32F429I-DISCOVERY (STM32F429ZIT6 – ARM Cortex-M4)
+•	IDE: STM32CubeIDE
+•	Giao diện: TouchGFX Designer
+•	RTOS: FreeRTOS (xử lý thời gian thực)
+•	Ngoại vi sử dụng: Joystick 2 trục, đèn LED GPIO, LCD-TFT 2.4”
 
-## SO ĐỒ SCHEMATIC
+## 🧩SƠ ĐỒ SCHEMATIC
 |STM32F429|Module ngoại vi|
 |--|--|
 |PC3|JoyStick - Ngõ ra trục X(VRx)|
@@ -39,7 +41,8 @@ __Sản phẩm:__
 |PG2|Đèn LED|
 |LCD Pins|Màn hình LCD-TFT|
 
-### TÍCH HỢP HỆ THỐNG
+### 🧠TÍCH HỢP HỆ THỐNG
+
 - Phần cứng:
   |Linh kiện|Vai trò|
   |--|--|
@@ -49,8 +52,12 @@ __Sản phẩm:__
   |JoyStick - Chân nối đất(GND)|Nối với GND chung của hệ thống để đảm bảo tín hiệu joystick chính xác, không nhiễu loạn.|
   |Đèn LED|Nhận tín hiệu điều khiển để phát sáng khi người chơi ăn điểm.|
   |Màn hình LCD-TFT|Hiển thị giao diện trò chơi Tetris gồm khối gạch, điểm số, tốc độ rơi, và trạng thái chơi. Là trung tâm tương tác trực quan chính với người dùng.|
-- Mô tả các thành phần phần mềm và vai trò của chúng, vị trí nằm trên phần cứng nào: Front-end, Back-end, Worker, Middleware...
-  
+- Phần mềm:
+  |Thành phần|Vai trò|
+  |Front-end|Hiển thị giao diện TouchGFX, cập nhật khối, điểm số, khối kế tiếp.|
+  |Back-end|Xử lý logic Tetris: di chuyển, xoay, rơi, xóa hàng, tính điểm.|
+  |ADC Worker|Đọc giá trị analog từ joystick (ADC1, ADC2).|
+  |FreeRTOS|Quản lý thời gian rơi khối định kỳ (handleTickEvent())|
 
 ### ĐẶC TẢ HÀM
 
@@ -58,14 +65,43 @@ __Sản phẩm:__
 
   ```C
      /**
-      *  Hàm tính ...
-      *  @param  x  Tham số
-      *  @param  y  Tham số
+      * Hàm xoay khối trong khi đang rơi
       */
-     void abc(int x, int y = 2);
+     void Screen2View::rotateTetromino()
+  ```
+  ```C
+     /**
+      * Hàm kiểm tra vị trí va chạm của khối đang rơi
+      * @param1 row: hàng cần kiểm tra
+      * @param2 col: cột cần kiểm tra
+      */
+     bool Screen2View::canPlaceTetromino(int row, int col)
+  ```
+  ```C
+     /**
+      * Hàm xóa hàng khi có đầy đủ khối theo hướng nằm ngang
+      */
+     int Screen2View::checkAndClearLines()
+  ```
+  ```C
+     /**
+      * Hàm tính điểm cho người chơi
+      * @param1 clearedLines: số hàng đầy đủ mà đã được xóa
+      */
+     void Screen2View::updateScore(int clearedLines)
+  ```
+  ```C
+     /**
+      * Hàm gia tăng tốc độ rơi của khối dựa trên level
+      */
+     uint32_t Screen2View::getFallDelay()
   ```
   
-### KẾT QUẢ
+### ✅KẾT QUẢ
+•	🧩 Game chạy mượt trên STM32F429 với giao diện TouchGFX
+•	🎮 Joystick điều khiển chính xác, responsive
+•	💡 LED nhấp nháy khi xóa hàng, tăng điểm
+•	🧠 Logic đầy đủ theo chuẩn Tetris cổ điển
 
-- Các ảnh chụp với caption giải thích.
-- Hoặc video sản phẩm
+Video của nhóm: https://drive.google.com/file/d/1-VqlwvGcNcQszQN_dZGHPZ5y4LJb_vh_/view?usp=sharing
+
