@@ -1,0 +1,49 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:475:6:virtual void Screen2View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:12:13:Screen2View::~Screen2View()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:12:13:virtual Screen2View::~Screen2View()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:13:1:Screen2View::Screen2View()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:79:6:bool Screen2View::isLineFull(int)	8	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:90:6:void Screen2View::clearLine(int)	20	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:106:5:int Screen2View::checkAndClearLines()	16	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:149:6:void Screen2View::updateScoreDisplay()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:123:6:void Screen2View::updateScore(int)	8	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:165:10:uint32_t Screen2View::getFallDelay()	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:179:10:uint16_t Screen2View::readJoystickX()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:203:10:uint16_t Screen2View::readJoystickY()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:480:6:void Screen2View::updateCurrentBoard()	32	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:504:6:void Screen2View::fallTetris()	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:514:6:bool Screen2View::canPlaceTetromino(int, int)	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:509:6:bool Screen2View::canFall()	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:544:6:void Screen2View::landTetromino()	28	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:560:6:void Screen2View::updateDisplay()	40	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:342:6:void Screen2View::moveLeft()	16	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:355:6:void Screen2View::moveRight()	16	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:368:6:void Screen2View::softDrop()	8	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:576:6:void Screen2View::updateDisplay2()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:602:6:void Screen2View::getTetromino(int, int)	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:295:6:bool Screen2View::canRotate(int)	48	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:276:6:void Screen2View::rotateTetromino()	16	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:227:6:void Screen2View::handleJoystickInput()	24	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:616:6:void Screen2View::getNextTetromino(int, int)	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:592:6:void Screen2View::randomTetromino()	8	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:630:6:void Screen2View::getCurrentTetromino()	0	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:381:6:virtual void Screen2View::handleTickEvent()	32	static
+C:/TouchGFXProjects/TestTetris_ver1/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:33:6:virtual void Screen2View::setupScreen()	56	static

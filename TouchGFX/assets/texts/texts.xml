@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="lineWildcard" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="levelWildcard" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_PWOZ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_DLS9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Line:</Translation>
+      </Text>
+      <Text Id="__SingleUse_83HQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8T07" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Level:</Translation>
+      </Text>
+      <Text Id="__SingleUse_GZCC" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB"> Game Over&#10;You are loser&#10;</Translation>
+      </Text>
+      <Text Id="levelScreen1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_SDGV" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_LXTP" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Level:</Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_SVDC" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="scoreWildcard" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HFXH" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Score:</Translation>
+      </Text>
+      <Text Id="__SingleUse_SLQ6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Next:</Translation>
+      </Text>
+      <Text Id="__SingleUse_4JYA" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Play</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WildcardCharacterRanges="0x30-0x39" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
